@@ -10,7 +10,7 @@ const Footer = () => {
         autoPlay={true}
         loop={true}
         src={sound}
-        className="fixed bottom-0 right-0 w-[230px] text-sm "
+        className="fixed bottom-0 right-0 w-[230px] text-sm hidden lg:block"
       ></audio>
     </div>
   );
