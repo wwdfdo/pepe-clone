@@ -3,6 +3,7 @@ import About from "./components/About/About";
 import Banner from "./components/Banner/Banner";
 import Header from "./components/Header/Header";
 import HowToBuy from "./components/HowToBuy/HowToBuy";
+import Roadmap from "./components/Roadmap/Roadmap";
 import Tokenomics from "./components/Tokenomics/Tokenomics.";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <About />
       <HowToBuy />
       <Tokenomics />
+      <Roadmap />
     </div>
   );
 }
