@@ -26,29 +26,29 @@ import opensea from "../../images/icons8-opensea-96.png";
 
 const Banner = () => {
   return (
-    <div className="flex flex-col justify-center items-center bg-bgcow bg-cover bg-no-repeat bg-center w-3/4 mx-auto pb-20">
+    <div className="flex flex-col justify-center items-center  w-3/4 mx-auto pb-20">
       <div className="flex flex-col">
-        <div className="flex items-center justify-between py-20">
-          <div className="text-white flex flex-col gap-6">
+        <div className="flex lg:flex-row flex-col items-center lg:justify-between gap-20 pt-20">
+          <div className="text-white flex flex-col items-center lg:items-start gap-6">
             <h3 className="flex text-[3rem] italic font-bold">#pepeclub</h3>
-            <p className="flex text-[2.2rem]">
+            <p className="flex lg:text-left text-center  text-[2.2rem] ">
               the most memeable NFT in <br /> existence. The dogs have had their{" "}
               <br />
               day, it’s time for Pepe to take reign.
             </p>
             <div className="flex gap-5 pt-4">
               <a href="https://twitter.com/pepeclubvip" target="_blank">
-                <div className="w-[4.2rem]">
+                <div className="lg:w-[4.2rem] w-[3.5rem]">
                   <img src={twitter} alt="" />
                 </div>
               </a>
               <a href="https://t.me/pepeclubvip" target="_blank">
-                <div className="w-[4.2rem]">
+                <div className="lg:w-[4.2rem] w-[3.5rem]">
                   <img src={telegram} alt="" />
                 </div>
               </a>
               <a href="https://discord.com/invite/pwFzafVscf" target="_blank">
-                <div className="w-[4.2rem]">
+                <div className="lg:w-[4.2rem] w-[3.5rem]">
                   <img src={discord} alt="" />
                 </div>
               </a>
@@ -56,12 +56,12 @@ const Banner = () => {
                 href=" https://opensea.io/collection/pepeclubvip"
                 target="_blank"
               >
-                <div className="w-[4.2rem]">
+                <div className="lg:w-[4.2rem] w-[3.5rem]">
                   <img src={opensea} alt="" />
                 </div>
               </a>
               <a href="https://medium.com/@pepeclubvip" target="_blank">
-                <div className="w-[4.2rem]">
+                <div className="lg:w-[4.2rem] w-[3.5rem]">
                   <img src={medium} alt="" />
                 </div>
               </a>
@@ -71,7 +71,7 @@ const Banner = () => {
               </div> */}
             </div>
           </div>
-          <div className="w-2/5">
+          <div className="lg:w-2/5 w-[90%]">
             <img src={BannerImage} alt="" />
           </div>
         </div>

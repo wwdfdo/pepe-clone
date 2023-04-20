@@ -11,7 +11,7 @@ import Tokenomics from "./components/Tokenomics/Tokenomics.";
 
 function App() {
   return (
-    <div className="bg-[#4f9843]">
+    <div className="bg-[#4f9843] m-0 p-0 box-border">
       <Header />
       <Banner />
       <About />
