@@ -30,7 +30,7 @@ const Banner = () => {
       <div className="flex flex-col">
         <div className="flex items-center justify-between py-20">
           <div className="text-white flex flex-col gap-6">
-            <h3 className="flex text-[3rem] italic font-bold">#pepe</h3>
+            <h3 className="flex text-[3rem] italic font-bold">#pepeclub</h3>
             <p className="flex text-[2.2rem]">
               the most memeable NFT in <br /> existence. The dogs have had their{" "}
               <br />

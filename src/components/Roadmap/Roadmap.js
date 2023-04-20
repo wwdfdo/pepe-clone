@@ -30,11 +30,11 @@ const Roadmap = () => {
             <img src={froggreen} alt="" />
           </div>
         </div>
-        <div className="w-[60%] mx-auto text-2xl text-center">
+        {/* <div className="w-[60%] mx-auto text-2xl text-center">
           All jokes aside, here is a rough sketch of $pepes path ahead. We dont
           wan’t to give everything away on day 1, Expect surprises along the way
           ;)
-        </div>
+        </div> */}
         <div className="flex gap-10 justify-center mx-auto">
           <div className="flex flex-col bg-green-950 rounded-tr-3xl rounded-bl-3xl border-2 border-white gap-5 w-full py-10 px-5">
             <h3 className="text-center text-4xl font-bold">Grow</h3>

@@ -35,16 +35,16 @@ const ContactComponent = () => {
           </a>
         </div>
         <p className="flex text-2xl text-center">
-          #PEPE Pepe Club has no association with Matt Furie or his creation
-          Pepe the Frog. This token is simply paying homage to a meme we all
-          love and recognize.
+          #PEPE #PEPECLUB Pepe Club has no association with Matt Furie or his
+          creation Pepe the Frog. This token is simply paying homage to a meme
+          we all love and recognize.
         </p>
         <p className="flex text-2xl text-center">
-          #PEPE Pepe Club is a meme NFT with no intrinsic value or expectation
-          of financial return, the NFT was released to celebrate the Pepe Meme
-          and support the community around it and encourage the NFT space with
-          creativity and collaboration, Pepe Club NFT collection is solely for
-          entertainment purposes only.
+          #PEPE #PEPECLUB Pepe Club is a meme NFT with no intrinsic value or
+          expectation of financial return, the NFT was released to celebrate the
+          Pepe Meme and support the community around it and encourage the NFT
+          space with creativity and collaboration, Pepe Club NFT collection is
+          solely for entertainment purposes only.
         </p>
       </div>
     </div>
