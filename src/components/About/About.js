@@ -4,8 +4,8 @@ import whiteborder from "../../images/bordersvg.svg";
 
 const About = () => {
   return (
-    <div className="relative py-10">
-      <div className="h-10 absolute w-full ">
+    <div className="relative py-10" id="about">
+      <div className="h-10 absolute w-full">
         <img src={whiteborder} className="  rotate-180 w-full" alt="" />
       </div>
 

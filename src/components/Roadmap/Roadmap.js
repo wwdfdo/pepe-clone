@@ -8,7 +8,10 @@ const Roadmap = () => {
   return (
     <div className="py-10">
       <img src={borderwhite} className=" rotate-180" alt="" />
-      <div className="flex flex-col text-white gap-20 w-3/4 mx-auto pt-40 pb-20">
+      <div
+        className="flex flex-col text-white gap-20 w-3/4 mx-auto pt-10 pb-20"
+        id="roadmap"
+      >
         <div className="flex justify-between">
           <div className="w-1/4">
             <img src={frogpee} alt="" />
@@ -17,11 +20,11 @@ const Roadmap = () => {
             <h3 className="text-white text-7xl font-bold text-center">
               Road Map
             </h3>
-            <div className="flex flex-col gap-5 bg-green-950 text-2xl justify-center text-center py-5 px-10 border-2 border-white rounded-tr-3xl rounded-bl-3xl">
+            {/* <div className="flex flex-col gap-5 bg-green-950 text-2xl justify-center text-center py-5 px-10 border-2 border-white rounded-tr-3xl rounded-bl-3xl">
               <p>Phase 1: Meme</p>
               <p>Phase 2: Vibe and HODL</p>
               <p>Phase 3: Generational wealth</p>
-            </div>
+            </div> */}
           </div>
           <div className="w-1/4">
             <img src={froggreen} alt="" />
@@ -33,66 +36,67 @@ const Roadmap = () => {
           ;)
         </div>
         <div className="flex gap-10 justify-center mx-auto">
-          <div className="flex flex-col bg-green-950 rounded-tr-3xl rounded-bl-3xl border-2 border-white gap-5 w-1/3 py-10 px-5">
-            <h3 className="text-center text-4xl font-bold">Phase 1</h3>
+          <div className="flex flex-col bg-green-950 rounded-tr-3xl rounded-bl-3xl border-2 border-white gap-5 w-full py-10 px-5">
+            <h3 className="text-center text-4xl font-bold">Grow</h3>
             <div className="flex flex-col gap-5">
-              <div className="flex items-center">
+              <div className="flex items-start">
                 <BsDot size={24} />
-                <p>Launch</p>
+                <p>50,000+ Holders</p>
               </div>
-              <div className="flex items-center">
+              <div className="flex items-start ">
                 <BsDot size={24} />
-                <p>CoinGecko/Coinmarketcap divstings</p>{" "}
-              </div>
-              <div className="flex items-center">
-                <BsDot size={24} /> <p>1,000+ Holders</p>{" "}
-              </div>
-              <div className="flex items-center">
-                <BsDot size={24} />{" "}
-                <p>Get $PEPE Trending on twitter with our memetic power</p>{" "}
+                <p>
+                  Get #PEPECLUB <br /> Trending on twitter <br /> with our
+                  memetic power
+                </p>
               </div>
             </div>
           </div>
-          <div className="flex flex-col bg-green-950 rounded-tr-3xl rounded-bl-3xl border-2 border-white gap-5 w-1/3 py-10 px-5">
-            <h3 className="text-center text-4xl font-bold">Phase 1</h3>
+          <div className="flex flex-col bg-green-950 rounded-tr-3xl rounded-bl-3xl border-2 border-white gap-5 w-full py-10 px-5">
+            <h3 className="text-center text-4xl font-bold"> Blow</h3>
             <div className="flex flex-col gap-5">
-              <div className="flex items-center">
+              <div className="flex items-start">
                 <BsDot size={24} />
-                <p>Community Partnerships Pepe Times digital newsletter</p>
+                <p>Discord Out</p>
               </div>
-              <div className="flex items-center">
+              <div className="flex items-start">
                 <BsDot size={24} />
-                <p>Community Partnerships Pepe Times digital newsletter</p>
-              </div>
-              <div className="flex items-center">
-                <BsDot size={24} />
-                <p>Community Partnerships Pepe Times digital newsletter</p>
-              </div>
-              <div className="flex items-center">
-                <BsDot size={24} />
-                <p>Community Partnerships Pepe Times digital newsletter</p>
+                <p>Community Partnerships</p>
               </div>
             </div>
           </div>
-          <div className="flex flex-col bg-green-950 rounded-tr-3xl rounded-bl-3xl border-2 border-white gap-5 w-1/3 py-10 px-5">
-            <h3 className="text-center text-4xl font-bold">Phase 1</h3>
+          <div className="flex flex-col bg-green-950 rounded-tr-3xl rounded-bl-3xl border-2 border-white gap-5 w-full py-10 px-5">
+            <h3 className="text-center text-4xl font-bold">Stand By</h3>
             <div className="flex flex-col gap-5">
-              <div className="flex items-center">
+              <div className="flex items-start">
                 <BsDot size={24} />
-                <p>Pepe themed merch, % revenues to $pepe buy and burn</p>
+                <p>Special Editions</p>
               </div>
-              <div className="flex items-center">
+              <div className="flex items-start">
                 <BsDot size={24} />
-                <p>Pepe Academy: details tba</p>{" "}
+                <p>Community Interactions </p>{" "}
               </div>
-              <div className="flex items-center">
-                <BsDot size={24} /> <p>Pepe Tools: details tba</p>{" "}
+              <div className="flex items-start">
+                <BsDot size={24} /> <p>Fun & Games</p>{" "}
               </div>
-              <div className="flex items-center">
-                <BsDot size={24} /> <p>T1 Exchange Listings 100,000+ holders</p>{" "}
+            </div>
+          </div>
+          <div className="flex flex-col bg-green-950 rounded-tr-3xl rounded-bl-3xl border-2 border-white gap-5 w-full py-10 px-5">
+            <h3 className="text-center text-4xl font-bold">Moon</h3>
+            <div className="flex flex-col gap-5">
+              <div className="flex items-start">
+                <BsDot size={24} />
+                <p> Airdrop</p>
               </div>
-              <div className="flex items-center">
-                <BsDot size={24} /> <p>Flip Bitcoin</p>{" "}
+              <div className="flex items-start">
+                <BsDot size={24} />
+                <p>Merchandise</p>{" "}
+              </div>
+              <div className="flex items-start">
+                <BsDot size={24} /> <p>Culture</p>{" "}
+              </div>
+              <div className="flex items-start">
+                <BsDot size={24} /> <p>Kek Kingdom</p>{" "}
               </div>
             </div>
           </div>

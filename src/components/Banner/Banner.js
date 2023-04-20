@@ -37,25 +37,34 @@ const Banner = () => {
               day, it’s time for Pepe to take reign.
             </p>
             <div className="flex gap-5 pt-4">
-              <div className="w-[4.2rem]">
-                <img src={twitter} alt="" />
-              </div>
-              <div className="w-[4.2rem]">
-                {" "}
-                <img src={telegram} alt="" />
-              </div>
-              <div className="w-[4.2rem]">
-                {" "}
-                <img src={discord} alt="" />
-              </div>
-              <div className="w-[4.2rem]">
-                {" "}
-                <img src={opensea} alt="" />
-              </div>
-              <div className="w-[4.2rem]">
-                {" "}
-                <img src={medium} alt="" />
-              </div>
+              <a href="https://twitter.com/pepeclubvip" target="_blank">
+                <div className="w-[4.2rem]">
+                  <img src={twitter} alt="" />
+                </div>
+              </a>
+              <a href="https://t.me/pepeclubvip" target="_blank">
+                <div className="w-[4.2rem]">
+                  <img src={telegram} alt="" />
+                </div>
+              </a>
+              <a href="https://discord.com/invite/pwFzafVscf" target="_blank">
+                <div className="w-[4.2rem]">
+                  <img src={discord} alt="" />
+                </div>
+              </a>
+              <a
+                href=" https://opensea.io/collection/pepeclubvip"
+                target="_blank"
+              >
+                <div className="w-[4.2rem]">
+                  <img src={opensea} alt="" />
+                </div>
+              </a>
+              <a href="https://medium.com/@pepeclubvip" target="_blank">
+                <div className="w-[4.2rem]">
+                  <img src={medium} alt="" />
+                </div>
+              </a>
               {/* <div className="w-[4.2rem]">
                 {" "}
                 <img src={etherscan} alt="" />

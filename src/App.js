@@ -5,7 +5,7 @@ import ContactComponent from "./components/ContactComponent/ContactComponent";
 import Footer from "./components/Fotter/Footer";
 
 import Header from "./components/Header/Header";
-import HowToBuy from "./components/HowToBuy/HowToBuy";
+// import HowToBuy from "./components/HowToBuy/HowToBuy";
 import Roadmap from "./components/Roadmap/Roadmap";
 import Tokenomics from "./components/Tokenomics/Tokenomics.";
 
@@ -15,7 +15,7 @@ function App() {
       <Header />
       <Banner />
       <About />
-      <HowToBuy />
+      {/* <HowToBuy /> */}
       <Tokenomics />
       <Roadmap />
       <ContactComponent />

@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../images/pepenewtitle.png";
+import logo from "../../images/Pepe_Club_Logo.png";
 
 const Header = () => {
   return (
@@ -8,15 +8,28 @@ const Header = () => {
         <img src={logo} className="w-[16rem]" alt="" />
       </div>
       <ul className="flex gap-10">
-        <li className=" cursor-pointer">home</li>
-        <li className=" cursor-pointer">about</li>
-        <li className=" cursor-pointer">how to buy</li>
-        <li className=" cursor-pointer">tokenmics</li>
-        <li className=" cursor-pointer">roadmap</li>
+        <li className=" cursor-pointer">
+          {" "}
+          <a href="/">home</a>
+        </li>
+        <li className=" cursor-pointer">
+          {" "}
+          <a href="#about">about</a>
+        </li>
+        <li className=" cursor-pointer">
+          {" "}
+          <a href="#collectionomics">collectionomics</a>
+        </li>
+        <li className=" cursor-pointer">
+          {" "}
+          <a href="#roadmap">roadmap</a>
+        </li>
       </ul>
-      <div className=" border-[1px] border-white px-4 pb-2 pt-1 flex items-center rounded-3xl">
-        buy now
-      </div>
+      <a href="https://opensea.io/collection/pepeclubvip/drop" target="_blank">
+        <div className=" border-[1px] border-white px-4 pb-2 pt-1 flex items-center rounded-3xl">
+          buy now
+        </div>
+      </a>
     </div>
   );
 };
