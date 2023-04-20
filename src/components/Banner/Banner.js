@@ -27,10 +27,10 @@ const Banner = () => {
       <div className="flex flex-col w-[3/4]">
         <div className="flex items-center justify-center w-[3/4]">
           <div className="text-white flex flex-col gap-6">
-            <h3 className="flex text-[3rem] italic font-bold">$pepe</h3>
+            <h3 className="flex text-[3rem] italic font-bold">#pepe</h3>
             <p className="flex text-[2.2rem]">
-              the most memeable memecoin in <br /> existence. The dogs have had
-              their <br />
+              the most memeable NFT in <br /> existence. The dogs have had their{" "}
+              <br />
               day, it’s time for Pepe to take reign.
             </p>
             <div className="flex gap-5 pt-4">
