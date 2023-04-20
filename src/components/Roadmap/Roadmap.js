@@ -1,16 +1,16 @@
 import React from "react";
 import borderwhite from "../../images/second border.svg";
-import frogpee from "../../images/frogpee.webp";
-import froggreen from "../../images/roadmapgreen.webp";
+import frogpee from "../../images/pepecropped2.png";
+import froggreen from "../../images/pepecropped4.png";
 import { BsDot } from "react-icons/bs";
 
 const Roadmap = () => {
   return (
     <div className="py-10">
       <img src={borderwhite} className=" rotate-180" alt="" />
-      <div className="flex flex-col text-white gap-20">
+      <div className="flex flex-col text-white gap-20 w-3/4 mx-auto pt-40 pb-20">
         <div className="flex justify-between">
-          <div>
+          <div className="w-1/4">
             <img src={frogpee} alt="" />
           </div>
           <div className="flex flex-col items-center justify-around gap-10">
@@ -23,7 +23,7 @@ const Roadmap = () => {
               <p>Phase 3: Generational wealth</p>
             </div>
           </div>
-          <div>
+          <div className="w-1/4">
             <img src={froggreen} alt="" />
           </div>
         </div>
@@ -32,7 +32,7 @@ const Roadmap = () => {
           wan’t to give everything away on day 1, Expect surprises along the way
           ;)
         </div>
-        <div className="flex gap-10 justify-center w-4/5 mx-auto">
+        <div className="flex gap-10 justify-center mx-auto">
           <div className="flex flex-col bg-green-950 rounded-tr-3xl rounded-bl-3xl border-2 border-white gap-5 w-1/3 py-10 px-5">
             <h3 className="text-center text-4xl font-bold">Phase 1</h3>
             <div className="flex flex-col gap-5">

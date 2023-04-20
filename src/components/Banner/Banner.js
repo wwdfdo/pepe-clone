@@ -1,5 +1,5 @@
 import React from "react";
-import BannerImage from "../../images/banner-frog.webp";
+import BannerImage from "../../images/pepe3crop.png";
 import twitter from "../../images/twitter.webp";
 import telegram from "../../images/telegram.webp";
 import cmc from "../../images/cmc.webp";
@@ -23,9 +23,9 @@ import coingeko from "../../images/coingeko.webp";
 
 const Banner = () => {
   return (
-    <div className="flex flex-col justify-center items-center bg-bgcow bg-cover bg-no-repeat bg-center w-full pb-20">
-      <div className="flex flex-col w-[3/4]">
-        <div className="flex items-center justify-center w-[3/4]">
+    <div className="flex flex-col justify-center items-center bg-bgcow bg-cover bg-no-repeat bg-center w-3/4 mx-auto pb-20">
+      <div className="flex flex-col">
+        <div className="flex items-center justify-between py-20">
           <div className="text-white flex flex-col gap-6">
             <h3 className="flex text-[3rem] italic font-bold">#pepe</h3>
             <p className="flex text-[2.2rem]">
@@ -59,69 +59,69 @@ const Banner = () => {
               </div>
             </div>
           </div>
-          <div>
+          <div className="w-2/5">
             <img src={BannerImage} alt="" />
           </div>
         </div>
         <div className="flex justify-center ">
-          <div className="flex flex-wrap  justify-center items-center w-[3/4] gap-5 mx-auto text-[32px] font-bold">
-            <div className="flex items-center justify-center border-white border-[1px] hover:bg-white hover:bg-opacity-50 cursor-pointer duration-300  text-white pb-2 py-1  gap-10 rounded-full w-[25%]">
+          <div className="flex flex-wrap  justify-center items-center  gap-5 mx-auto text-[32px] font-bold">
+            <div className="flex items-center justify-center border-white border-[1px] hover:bg-white hover:bg-opacity-50 cursor-pointer duration-300  text-white pb-2 py-1  gap-10 rounded-full w-[29%]">
               <div>uniswap</div>
               <img src={uniswaplogo} alt="" />
             </div>
-            <div className="flex items-center justify-center border-white border-[1px] hover:bg-white hover:bg-opacity-50 cursor-pointer duration-300  text-white pb-2 py-1  gap-10 rounded-full w-[25%]">
+            <div className="flex items-center justify-center border-white border-[1px] hover:bg-white hover:bg-opacity-50 cursor-pointer duration-300  text-white pb-2 py-1  gap-10 rounded-full w-[30%]">
               <div>mexc</div>
               <img src={mexc} alt="" />
             </div>
-            <div className="flex items-center justify-center border-white border-[1px] hover:bg-white hover:bg-opacity-50 cursor-pointer duration-300  text-white pb-2 py-1  gap-10 rounded-full w-[25%]">
+            <div className="flex items-center justify-center border-white border-[1px] hover:bg-white hover:bg-opacity-50 cursor-pointer duration-300  text-white pb-2 py-1  gap-10 rounded-full w-[30%]">
               <div>gate.io</div>
               <img src={gate} alt="" />
             </div>
-            <div className="flex items-center justify-center border-white border-[1px] hover:bg-white hover:bg-opacity-50 cursor-pointer duration-300  text-white pb-2 py-1  gap-10 rounded-full w-[25%]">
+            <div className="flex items-center justify-center border-white border-[1px] hover:bg-white hover:bg-opacity-50 cursor-pointer duration-300  text-white pb-2 py-1  gap-10 rounded-full w-[30%]">
               <div>huobi</div>
               <img src={huobi} alt="" />
             </div>
-            <div className="flex items-center justify-center border-white border-[1px] hover:bg-white hover:bg-opacity-50 cursor-pointer duration-300  text-white pb-2 py-1  gap-10 rounded-full w-[25%]">
+            <div className="flex items-center justify-center border-white border-[1px] hover:bg-white hover:bg-opacity-50 cursor-pointer duration-300  text-white pb-2 py-1  gap-10 rounded-full w-[30%]">
               <div>poloniex</div>
               <img src={poloniex} alt="" />
             </div>
-            <div className="flex items-center justify-center border-white border-[1px] hover:bg-white hover:bg-opacity-50 cursor-pointer duration-300  text-white pb-2 py-1  gap-10 rounded-full w-[25%]">
+            <div className="flex items-center justify-center border-white border-[1px] hover:bg-white hover:bg-opacity-50 cursor-pointer duration-300  text-white pb-2 py-1  gap-10 rounded-full w-[30%]">
               <div>okx dex</div>
               <img src={okx} alt="" />
             </div>
-            <div className="flex items-center justify-center border-white border-[1px] hover:bg-white hover:bg-opacity-50 cursor-pointer duration-300  text-white pb-2 py-1  gap-10 rounded-full w-[25%]">
+            <div className="flex items-center justify-center border-white border-[1px] hover:bg-white hover:bg-opacity-50 cursor-pointer duration-300  text-white pb-2 py-1  gap-10 rounded-full w-[30%]">
               <div>Ibank</div>
               <img src={ibank} alt="" />
             </div>
-            <div className="flex items-center justify-center border-white border-[1px] hover:bg-white hover:bg-opacity-50 cursor-pointer duration-300  text-white pb-2 py-1  gap-10 rounded-full w-[25%]">
+            <div className="flex items-center justify-center border-white border-[1px] hover:bg-white hover:bg-opacity-50 cursor-pointer duration-300  text-white pb-2 py-1  gap-10 rounded-full w-[30%]">
               <div>bingx</div>
               <img src={bingx} alt="" />
             </div>
-            <div className="flex items-center justify-center border-white border-[1px] hover:bg-white hover:bg-opacity-50 duration-300  text-white pb-2 py-1  gap-10 rounded-full w-[25%] ">
+            <div className="flex items-center justify-center border-white border-[1px] hover:bg-white hover:bg-opacity-50 duration-300  text-white pb-2 py-1  gap-10 rounded-full w-[30%] ">
               <div>trustwallet</div>
               <img src={trustwallet} alt="" />
             </div>
-            <div className="flex items-center justify-center border-white border-[1px] hover:bg-white hover:bg-opacity-50 cursor-pointer duration-300  text-white pb-2 py-1  gap-10 rounded-full w-[25%]">
+            <div className="flex items-center justify-center border-white border-[1px] hover:bg-white hover:bg-opacity-50 cursor-pointer duration-300  text-white pb-2 py-1  gap-10 rounded-full w-[30%]">
               <div>digifinex</div>
               <img src={digifinex} alt="" />
             </div>
-            <div className="flex items-center justify-center border-white border-[1px] hover:bg-white hover:bg-opacity-50 cursor-pointer duration-300  text-white pb-2 py-1  gap-10 rounded-full w-[25%]">
+            <div className="flex items-center justify-center border-white border-[1px] hover:bg-white hover:bg-opacity-50 cursor-pointer duration-300  text-white pb-2 py-1  gap-10 rounded-full w-[30%]">
               <div>btcex</div>
               <img src={btcex} alt="" />
             </div>
-            <div className="flex items-center justify-center border-white border-[1px] hover:bg-white hover:bg-opacity-50 cursor-pointer duration-300  text-white pb-2 py-1  gap-10 rounded-full w-[25%] opacity-0">
+            <div className="flex items-center justify-center border-white border-[1px] hover:bg-white hover:bg-opacity-50 duration-300  text-white pb-2 py-1  gap-10 rounded-full w-[30%] opacity-0">
               <div>uniswap</div>
               <img src={dextoologo} alt="" />
             </div>
-            <div className="flex items-center justify-center border-white border-[1px] hover:bg-white hover:bg-opacity-50 cursor-pointer duration-300  text-white pb-2 py-1  gap-10 rounded-full w-[25%]">
+            <div className="flex items-center justify-center border-white border-[1px] hover:bg-white hover:bg-opacity-50 cursor-pointer duration-300  text-white pb-2 py-1  gap-10 rounded-full w-[30%]">
               <div>dextools</div>
               <img src={dextoologo} alt="" />
             </div>
-            <div className="flex items-center justify-center border-white border-[1px] hover:bg-white hover:bg-opacity-50 cursor-pointer duration-300  text-white pb-2 py-1  gap-10 rounded-full w-[25%]">
+            <div className="flex items-center justify-center border-white border-[1px] hover:bg-white hover:bg-opacity-50 cursor-pointer duration-300  text-white pb-2 py-1  gap-10 rounded-full w-[30%]">
               <div>coinmarketcap</div>
               <img src={coinmarket} alt="" />
             </div>
-            <div className="flex items-center justify-center border-white border-[1px] hover:bg-white hover:bg-opacity-50 cursor-pointer duration-300  text-white pb-2 py-1  gap-10 rounded-full w-[25%]">
+            <div className="flex items-center justify-center border-white border-[1px] hover:bg-white hover:bg-opacity-50 cursor-pointer duration-300  text-white pb-2 py-1  gap-10 rounded-full w-[30%]">
               <div>coingecko</div>
               <img src={coingeko} alt="" />
             </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import capfrog from "../../images/capfrog.webp";
+import capfrog from "../../images/pepecroped5.png";
 import whiteborder from "../../images/bordersvg.svg";
 
 const About = () => {
@@ -9,9 +9,9 @@ const About = () => {
         <img src={whiteborder} className="  rotate-180 w-full" alt="" />
       </div>
 
-      <div className="flex items-center justify-center text-white py-20">
-        <div>
-          <img src={capfrog} className="w-5/6" alt="" />
+      <div className="flex items-center justify-between text-white w-3/4 mx-auto pt-40 pb-10">
+        <div className="w-2/5">
+          <img src={capfrog} alt="" />
         </div>
         <div className="flex flex-col gap-8">
           <h3 className="flex text-7xl font-bold">ABOUT</h3>
