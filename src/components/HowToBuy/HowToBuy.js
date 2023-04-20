@@ -3,7 +3,7 @@ import walletlogo from "../../images/walletlogo.webp";
 import getsometh from "../../images/getsomeeth.webp";
 import uniswaphowtoplay from "../../images/uniswaphowtoplay.webp";
 import switchlogo from "../../images/switchlogo.webp";
-import cow from "../../images/howtoplay-cow.webp";
+import cow from "../../images/pepex.png";
 import borderwhite from "../../images/second border.svg";
 
 const HowToBuy = () => {
@@ -68,7 +68,7 @@ const HowToBuy = () => {
         </div>
       </div>
 
-      <div className="flex items-center justify-center gap-20">
+      <div className="flex items-center justify-between gap-20 w-3/4 mx-auto">
         <div className="w-[500px] h-[500px] overflow-y-auto">
           <div>
             <p>
