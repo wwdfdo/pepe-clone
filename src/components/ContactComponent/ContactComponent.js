@@ -3,7 +3,7 @@ import React from "react";
 import { RxDiscordLogo } from "react-icons/rx";
 import { TfiTwitter } from "react-icons/tfi";
 import { SiTelegram } from "react-icons/si";
-import img from "../../images/pepetitle.webp";
+import img from "../../images/pepenewtitle.png";
 import borderwhite from "../../images/second border.svg";
 
 const ContactComponent = () => {

@@ -41,7 +41,7 @@ const Banner = () => {
                 {" "}
                 <img src={telegram} alt="" />
               </div>
-              <div className="w-[4.2rem]">
+              {/* <div className="w-[4.2rem]">
                 {" "}
                 <img src={dextool} alt="" />
               </div>
@@ -56,14 +56,14 @@ const Banner = () => {
               <div className="w-[4.2rem]">
                 {" "}
                 <img src={etherscan} alt="" />
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="w-2/5">
             <img src={BannerImage} alt="" />
           </div>
         </div>
-        <div className="flex justify-center ">
+        {/* <div className="flex justify-center ">
           <div className="flex flex-wrap  justify-center items-center  gap-5 mx-auto text-[32px] font-bold">
             <div className="flex items-center justify-center border-white border-[1px] hover:bg-white hover:bg-opacity-50 cursor-pointer duration-300  text-white pb-2 py-1  gap-10 rounded-full w-[29%]">
               <div>uniswap</div>
@@ -128,7 +128,7 @@ const Banner = () => {
           </div>
 
           <div></div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
