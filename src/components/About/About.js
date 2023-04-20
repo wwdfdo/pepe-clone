@@ -16,8 +16,8 @@ const About = () => {
         <div className="flex flex-col gap-8">
           <h3 className="flex text-7xl font-bold">ABOUT</h3>
           <p className="text-2xl tracking-wider">
-            Pepe is tired of watching everyone play <br /> hot potato with the
-            endless derivative <br /> ShibaCumGMElonKishuTurboAssFlokiMoon{" "}
+            Pepe Labs was tired of watching everyone play <br /> hot potato with
+            the endless derivative <br /> ShibaCumGMElonKishuTurboAssFlokiMoon{" "}
             <br /> Inu Memes. The Inu’s have had their <br /> day. It’s time for
             the most recognizable <br /> meme in the world to take his reign as{" "}
             <br /> king of the memes.
