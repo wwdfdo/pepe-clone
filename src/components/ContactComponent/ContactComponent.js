@@ -6,6 +6,7 @@ import { SiTelegram } from "react-icons/si";
 import img from "../../images/Pepe_Club_Logo_cropped.png";
 import borderwhite from "../../images/second border.svg";
 import opensea from "../../images/opensea.svg";
+import medium from "../../images/mediumwhite.svg";
 
 const ContactComponent = () => {
   return (
@@ -16,10 +17,22 @@ const ContactComponent = () => {
         <img src={img} alt="" />
         <p className="text-2xl">email: team@pepeclub.vip</p>
         <div className="flex gap-5">
-          <TfiTwitter size={56} className="text-white" />
-          <SiTelegram size={56} className="text-white" />
-          <RxDiscordLogo size={56} className="text-white" />
-          <img src={opensea} className="text-white w-[56px] bg-white" alt="" />
+          <a href="https://twitter.com/pepeclubvip" target="_blank">
+            <TfiTwitter size={56} className="text-white" />
+          </a>
+          <a href="https://t.me/pepeclubvip" target="_blank">
+            <SiTelegram size={56} className="text-white" />
+          </a>
+          <a href="https://discord.com/invite/pwFzafVscf" target="_blank">
+            {" "}
+            <RxDiscordLogo size={56} className="text-white" />
+          </a>
+          <a href="https://opensea.io/collection/pepeclubvip" target="_blank">
+            <img src={opensea} className=" w-[56px]" alt="" />
+          </a>
+          <a href="https://medium.com/@pepeclubvip" target="_blank">
+            <img src={medium} className=" w-[56px]" alt="" />
+          </a>
         </div>
         <p className="flex text-2xl text-center">
           #PEPE Pepe Club has no association with Matt Furie or his creation
