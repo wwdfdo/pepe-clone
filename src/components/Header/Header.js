@@ -8,11 +8,11 @@ const Header = () => {
         <img src={logo} className="w-[16rem]" alt="" />
       </div>
       <ul className="flex gap-10">
-        <li>home</li>
-        <li>about</li>
-        <li>how to buy</li>
-        <li>tokenmics</li>
-        <li>roadmap</li>
+        <li className=" cursor-pointer">home</li>
+        <li className=" cursor-pointer">about</li>
+        <li className=" cursor-pointer">how to buy</li>
+        <li className=" cursor-pointer">tokenmics</li>
+        <li className=" cursor-pointer">roadmap</li>
       </ul>
       <div className=" border-[1px] border-white px-4 pb-2 pt-1 flex items-center rounded-3xl">
         buy now
