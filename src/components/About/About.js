@@ -18,16 +18,16 @@ const About = () => {
           <p className="text-2xl tracking-wider">
             Pepe is tired of watching everyone play <br /> hot potato with the
             endless derivative <br /> ShibaCumGMElonKishuTurboAssFlokiMoon{" "}
-            <br /> Inu coins. The Inu’s have had their <br /> day. It’s time for
+            <br /> Inu Memes. The Inu’s have had their <br /> day. It’s time for
             the most recognizable <br /> meme in the world to take his reign as{" "}
             <br /> king of the memes.
           </p>
           <p className="text-2xl tracking-wider">
             Pepe is here to make memecoins great <br /> again. Launched stealth
             with no <br />
-            presale, zero taxes, LP burnt and <br /> contract renounced, $PEPE
+            presale, zero taxes, LP burnt and <br /> contract renounced, #PEPE
             is a coin for <br /> the people, forever. Fueled by pure <br />{" "}
-            memetic power, let $PEPE show you the <br /> way. In Lord Kek we
+            memetic power, let #PEPE show you the <br /> way. In Lord Kek we
             trust.
           </p>
         </div>
