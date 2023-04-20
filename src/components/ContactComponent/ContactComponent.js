@@ -12,34 +12,50 @@ const ContactComponent = () => {
   return (
     <div>
       <img src={borderwhite} className=" rotate-180" alt="" />
-      <div className="flex flex-col justify-center items-center gap-10  w-2/3 mx-auto text-white py-20">
-        <h2 className="text-7xl font-bold pb-10 ">CONTACT</h2>
+      <div className="flex flex-col justify-center items-center gap-10  lg:w-2/3 w-5/6 mx-auto text-white py-20">
+        <h2 className="lg:text-7xl text-6xl font-bold pb-10 ">CONTACT</h2>
         <img src={img} alt="" />
-        <p className="text-2xl">email: team@pepeclub.vip</p>
+        <p className="lg:text-2xl text-xl">email: team@pepeclub.vip</p>
         <div className="flex gap-5">
-          <a href="https://twitter.com/pepeclubvip" target="_blank">
-            <TfiTwitter size={56} className="text-white" />
+          <a
+            href="https://twitter.com/pepeclubvip"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <TfiTwitter className="text-white lg:text-[56px] text-[30px]" />
           </a>
-          <a href="https://t.me/pepeclubvip" target="_blank">
-            <SiTelegram size={56} className="text-white" />
+          <a href="https://t.me/pepeclubvip" target="_blank" rel="noreferrer">
+            <SiTelegram className="text-white lg:text-[56px] text-[30px]" />
           </a>
-          <a href="https://discord.com/invite/pwFzafVscf" target="_blank">
+          <a
+            href="https://discord.com/invite/pwFzafVscf"
+            target="_blank"
+            rel="noreferrer"
+          >
             {" "}
-            <RxDiscordLogo size={56} className="text-white" />
+            <RxDiscordLogo className="text-white lg:text-[56px] text-[30px]" />
           </a>
-          <a href="https://opensea.io/collection/pepeclubvip" target="_blank">
-            <img src={opensea} className=" w-[56px]" alt="" />
+          <a
+            href="https://opensea.io/collection/pepeclubvip"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={opensea} className=" lg:w-[56px] w-[30px]" alt="" />
           </a>
-          <a href="https://medium.com/@pepeclubvip" target="_blank">
-            <img src={medium} className=" w-[56px]" alt="" />
+          <a
+            href="https://medium.com/@pepeclubvip"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={medium} className=" lg:w-[56px] w-[30px]" alt="" />
           </a>
         </div>
-        <p className="flex text-2xl text-center">
+        <p className="flex lg:text-2xl text-base text-center">
           #PEPE #PEPECLUB Pepe Club has no association with Matt Furie or his
           creation Pepe the Frog. This token is simply paying homage to a meme
           we all love and recognize.
         </p>
-        <p className="flex text-2xl text-center">
+        <p className="flex lg:text-2xl text-base text-center">
           #PEPE #PEPECLUB Pepe Club is a meme NFT with no intrinsic value or
           expectation of financial return, the NFT was released to celebrate the
           Pepe Meme and support the community around it and encourage the NFT

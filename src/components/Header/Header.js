@@ -3,11 +3,11 @@ import logo from "../../images/Pepe_Club_Logo.png";
 
 const Header = () => {
   return (
-    <div className=" flex h-[10rem] items-center bg-[#4f9843] justify-between px-[5%] text-3xl font-bold text-white shadow-md ">
+    <div className=" lg:flex hidden h-[10rem] items-center bg-[#4f9843] justify-between px-[5%] text-3xl font-bold text-white shadow-md  ">
       <div>
         <img src={logo} className="w-[16rem]" alt="" />
       </div>
-      <ul className="flex gap-10">
+      <ul className="lg:flex hidden gap-10">
         <li className=" cursor-pointer">
           {" "}
           <a href="/">home</a>
@@ -25,7 +25,11 @@ const Header = () => {
           <a href="#roadmap">roadmap</a>
         </li>
       </ul>
-      <a href="https://opensea.io/collection/pepeclubvip/drop" target="_blank">
+      <a
+        href="https://opensea.io/collection/pepeclubvip/drop"
+        target="_blank"
+        rel="noreferrer"
+      >
         <div className=" border-[1px] border-white px-4 pb-2 pt-1 flex items-center rounded-3xl">
           buy now
         </div>

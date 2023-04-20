@@ -9,7 +9,7 @@ const Roadmap = () => {
     <div className="py-10">
       <img src={borderwhite} className=" rotate-180" alt="" />
       <div
-        className="flex flex-col text-white gap-20 w-3/4 mx-auto pt-10 pb-20"
+        className="flex flex-col text-white gap-20 lg:w-3/4 w-11/12 mx-auto pt-10 pb-20"
         id="roadmap"
       >
         <div className="flex justify-between">
@@ -17,7 +17,7 @@ const Roadmap = () => {
             <img src={frogpee} alt="" />
           </div>
           <div className="flex flex-col items-center justify-around gap-10">
-            <h3 className="text-white text-7xl font-bold text-center">
+            <h3 className="text-white lg:text-7xl text-4xl  font-bold text-center">
               Road Map
             </h3>
             {/* <div className="flex flex-col gap-5 bg-green-950 text-2xl justify-center text-center py-5 px-10 border-2 border-white rounded-tr-3xl rounded-bl-3xl">
@@ -35,10 +35,10 @@ const Roadmap = () => {
           wan’t to give everything away on day 1, Expect surprises along the way
           ;)
         </div> */}
-        <div className="flex gap-8 justify-between">
-          <div className="flex flex-col bg-green-950 rounded-tr-3xl rounded-bl-3xl border-2 border-white gap-5 w-full py-10 px-5">
+        <div className="flex lg:flex-row flex-col gap-8 justify-between">
+          <div className="flex flex-col  bg-green-950 rounded-tr-3xl rounded-bl-3xl border-2 border-white gap-5 w-full py-10 px-5">
             <h3 className="text-center text-4xl font-bold">Grow</h3>
-            <div className="flex flex-col gap-5">
+            <div className="flex flex-col lg:gap-5 gap-2 lg:pl-0 pl-10 ">
               <div className="flex items-start">
                 <BsDot size={24} />
                 <p>50,000+ Holders</p>
@@ -54,7 +54,7 @@ const Roadmap = () => {
           </div>
           <div className="flex flex-col bg-green-950 rounded-tr-3xl rounded-bl-3xl border-2 border-white gap-5 w-full py-10 px-5">
             <h3 className="text-center text-4xl font-bold"> Blow</h3>
-            <div className="flex flex-col gap-5">
+            <div className="flex flex-col lg:gap-5 gap-2 lg:pl-0 pl-10 ">
               <div className="flex items-start">
                 <BsDot size={24} />
                 <p>Discord Out</p>
@@ -67,7 +67,7 @@ const Roadmap = () => {
           </div>
           <div className="flex flex-col bg-green-950 rounded-tr-3xl rounded-bl-3xl border-2 border-white gap-5 w-full py-10 px-5">
             <h3 className="text-center text-4xl font-bold">Stand By</h3>
-            <div className="flex flex-col gap-5">
+            <div className="flex flex-col lg:gap-5 gap-2 lg:pl-0 pl-10 ">
               <div className="flex items-start">
                 <BsDot size={24} />
                 <p>Special Editions</p>
@@ -83,7 +83,7 @@ const Roadmap = () => {
           </div>
           <div className="flex flex-col bg-green-950 rounded-tr-3xl rounded-bl-3xl border-2 border-white gap-5 w-full py-10 px-5">
             <h3 className="text-center text-4xl font-bold">Moon</h3>
-            <div className="flex flex-col gap-5">
+            <div className="flex flex-col lg:gap-5 gap-2 lg:pl-0 pl-10 ">
               <div className="flex items-start">
                 <BsDot size={24} />
                 <p> Airdrop</p>

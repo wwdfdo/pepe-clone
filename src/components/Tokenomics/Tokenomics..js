@@ -1,6 +1,6 @@
 import React from "react";
 import borderwhite from "../../images/second border.svg";
-import tokemfrog from "../../images/tokenomicfrog.webp";
+// import tokemfrog from "../../images/tokenomicfrog.webp";
 import cow from "../../images/pepex.png";
 import { BsDot } from "react-icons/bs";
 
@@ -9,16 +9,16 @@ const Tokenomics = () => {
     <div className="flex flex-col gap-16 py-10  ">
       <img src={borderwhite} className=" rotate-180" alt="" />
       <div className="flex flex-col gap-16 py-10" id="collectionomics">
-        <h2 className="text-7xl text-center text-white font-extrabold">
+        <h2 className="lg:text-7xl text-4xl text-center text-white font-extrabold">
           COLLECTIONOMICS
         </h2>
-        <div className="flex justify-around w-4/5 mx-auto items-center">
-          <div className="flex flex-col justify-center items-center gap-10">
+        <div className="flex lg:flex-row flex-col lg:justify-around justify-center gap-10 lg:w-4/5 w-11/12 mx-auto items-center">
+          <div className="flex flex-col justify-center items-center lg:gap-10 gap-5">
             {/* <div className="flex flex-col gap-6 text-center">
             <h3 className="text-white text-4xl font-bold">Token Supply:</h3>
             <p className="text-white text-4xl font-bold">420,690,000,000,000</p>
           </div> */}
-            <div className="flex flex-col gap-10  mx-auto px-8 py-12 rounded-tr-3xl rounded-bl-3xl border-2 border-white bg-green-950 text-[1.8rem]   text-white">
+            <div className="flex flex-col lg:gap-10 gap-5  mx-auto px-8 py-12 rounded-tr-3xl rounded-bl-3xl border-2 border-white bg-green-950 lg:text-[1.8rem] text-[1rem]   text-white">
               <div className="flex items-center">
                 <BsDot size={40} />
                 <p>Pepe Club Supply: 50,000</p>{" "}

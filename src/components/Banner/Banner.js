@@ -31,37 +31,58 @@ const Banner = () => {
         <div className="flex lg:flex-row flex-col items-center lg:justify-between gap-20 pt-20">
           <div className="text-white flex flex-col items-center lg:items-start gap-6">
             <h3 className="flex text-[3rem] italic font-bold">#pepeclub</h3>
-            <p className="flex lg:text-left text-center  text-[2.2rem] ">
+            <p className="lg:flex lg:text-left text-center  lg:text-[2.2rem] hidden ">
               the most memeable NFT in <br /> existence. The dogs have had their{" "}
               <br />
               day, it’s time for Pepe to take reign.
             </p>
+            <p className="lg:hidden lg:text-left text-center  text-[1.5rem] flex ">
+              the most memeable NFT in existence. The dogs have had their day,
+              it’s time for Pepe to take reign.
+            </p>
             <div className="flex gap-5 pt-4">
-              <a href="https://twitter.com/pepeclubvip" target="_blank">
-                <div className="lg:w-[4.2rem] w-[3.5rem]">
+              <a
+                href="https://twitter.com/pepeclubvip"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <div className="lg:w-[4.2rem] w-[3rem]">
                   <img src={twitter} alt="" />
                 </div>
               </a>
-              <a href="https://t.me/pepeclubvip" target="_blank">
-                <div className="lg:w-[4.2rem] w-[3.5rem]">
+              <a
+                href="https://t.me/pepeclubvip"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <div className="lg:w-[4.2rem] w-[3rem]">
                   <img src={telegram} alt="" />
                 </div>
               </a>
-              <a href="https://discord.com/invite/pwFzafVscf" target="_blank">
-                <div className="lg:w-[4.2rem] w-[3.5rem]">
+              <a
+                href="https://discord.com/invite/pwFzafVscf"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <div className="lg:w-[4.2rem] w-[3rem]">
                   <img src={discord} alt="" />
                 </div>
               </a>
               <a
                 href=" https://opensea.io/collection/pepeclubvip"
                 target="_blank"
+                rel="noreferrer"
               >
-                <div className="lg:w-[4.2rem] w-[3.5rem]">
+                <div className="lg:w-[4.2rem] w-[3rem]">
                   <img src={opensea} alt="" />
                 </div>
               </a>
-              <a href="https://medium.com/@pepeclubvip" target="_blank">
-                <div className="lg:w-[4.2rem] w-[3.5rem]">
+              <a
+                href="https://medium.com/@pepeclubvip"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <div className="lg:w-[4.2rem] w-[3rem]">
                   <img src={medium} alt="" />
                 </div>
               </a>
