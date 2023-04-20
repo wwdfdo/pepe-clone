@@ -13,7 +13,7 @@ const Roadmap = () => {
             <img src={frogpee} alt="" />
           </div>
           <div className="flex flex-col items-center justify-between gap-10">
-            <h3 className="text-white text-5xl font-bold text-center">
+            <h3 className="text-white text-7xl font-bold text-center">
               Road Map
             </h3>
             <div className="flex flex-col gap-5 bg-green-950 text-2xl justify-center text-center py-10 px-10 border-2 border-white rounded-tr-3xl rounded-bl-3xl">
