@@ -3,10 +3,13 @@ import walletlogo from "../../images/walletlogo.webp";
 import getsometh from "../../images/getsomeeth.webp";
 import uniswaphowtoplay from "../../images/uniswaphowtoplay.webp";
 import switchlogo from "../../images/switchlogo.webp";
+import cow from "../../images/howtoplay-cow.webp";
+import borderwhite from "../../images/second border.svg";
 
 const HowToBuy = () => {
   return (
-    <div className="flex flex-col gap-16">
+    <div className="flex flex-col gap-16 py-10">
+      <img src={borderwhite} className=" rotate-180" alt="" />
       <h2 className="text-7xl text-center text-white font-extrabold ">
         HOW TO BUY
       </h2>
@@ -62,6 +65,70 @@ const HowToBuy = () => {
               chrome extension by going to metamask.io.
             </p>{" "}
           </div>
+        </div>
+      </div>
+
+      <div className="flex items-center justify-center gap-20">
+        <div className="w-[500px] h-[500px] overflow-y-auto">
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut
+              magnam dolorum non quam, excepturi laborum esse vitae commodi
+              officia architecto vel consequuntur pariatur cum, itaque accusamus
+              nobis repudiandae exercitationem sint.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut
+              magnam dolorum non quam, excepturi laborum esse vitae commodi
+              officia architecto vel consequuntur pariatur cum, itaque accusamus
+              nobis repudiandae exercitationem sint.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut
+              magnam dolorum non quam, excepturi laborum esse vitae commodi
+              officia architecto vel consequuntur pariatur cum, itaque accusamus
+              nobis repudiandae exercitationem sint.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut
+              magnam dolorum non quam, excepturi laborum esse vitae commodi
+              officia architecto vel consequuntur pariatur cum, itaque accusamus
+              nobis repudiandae exercitationem sint.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut
+              magnam dolorum non quam, excepturi laborum esse vitae commodi
+              officia architecto vel consequuntur pariatur cum, itaque accusamus
+              nobis repudiandae exercitationem sint.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut
+              magnam dolorum non quam, excepturi laborum esse vitae commodi
+              officia architecto vel consequuntur pariatur cum, itaque accusamus
+              nobis repudiandae exercitationem sint.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut
+              magnam dolorum non quam, excepturi laborum esse vitae commodi
+              officia architecto vel consequuntur pariatur cum, itaque accusamus
+              nobis repudiandae exercitationem sint.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut
+              magnam dolorum non quam, excepturi laborum esse vitae commodi
+              officia architecto vel consequuntur pariatur cum, itaque accusamus
+              nobis repudiandae exercitationem sint.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut
+              magnam dolorum non quam, excepturi laborum esse vitae commodi
+              officia architecto vel consequuntur pariatur cum, itaque accusamus
+              nobis repudiandae exercitationem sint.
+            </p>
+          </div>
+        </div>
+        <div>
+          <img src={cow} alt="" />
         </div>
       </div>
     </div>
