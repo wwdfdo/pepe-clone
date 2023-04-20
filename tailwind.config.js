@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "bg-cow": "url('/src/images/banner-cow.webp)",
+        bgcow: "url('/src/images/banner-cow.webp)",
       },
     },
   },
