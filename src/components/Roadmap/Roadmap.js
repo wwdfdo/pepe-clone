@@ -35,7 +35,7 @@ const Roadmap = () => {
           wan’t to give everything away on day 1, Expect surprises along the way
           ;)
         </div> */}
-        <div className="flex gap-10 justify-center mx-auto">
+        <div className="flex gap-8 justify-between">
           <div className="flex flex-col bg-green-950 rounded-tr-3xl rounded-bl-3xl border-2 border-white gap-5 w-full py-10 px-5">
             <h3 className="text-center text-4xl font-bold">Grow</h3>
             <div className="flex flex-col gap-5">
@@ -46,7 +46,7 @@ const Roadmap = () => {
               <div className="flex items-start ">
                 <BsDot size={24} />
                 <p>
-                  Get #PEPECLUB <br /> Trending on twitter <br /> with our
+                  Get #PEPE #PEPECLUB <br /> Trending on twitter <br /> with our
                   memetic power
                 </p>
               </div>
