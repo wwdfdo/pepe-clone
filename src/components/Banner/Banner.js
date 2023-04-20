@@ -1,25 +1,28 @@
 import React from "react";
 import BannerImage from "../../images/pepe3crop.png";
-import twitter from "../../images/twitter.webp";
-import telegram from "../../images/telegram.webp";
-import cmc from "../../images/cmc.webp";
-import dextool from "../../images/dextool.webp";
-import etherscan from "../../images/etherscan.webp";
-import uniswap from "../../images/uniswap.webp";
-import uniswaplogo from "../../images/uniswap-logo.webp";
-import mexc from "../../images/mexc.webp";
-import gate from "../../images/gate.webp";
-import huobi from "../../images/huobi.webp";
-import poloniex from "../../images/poloniex.webp";
-import okx from "../../images/okx.webp";
-import ibank from "../../images/ibank.webp";
-import bingx from "../../images/bingx.webp";
-import trustwallet from "../../images/trustwallet.webp";
-import digifinex from "../../images/digifinex.webp";
-import btcex from "../../images/btsex.webp";
-import dextoologo from "../../images/dextoologo.webp";
-import coinmarket from "../../images/cinemarketlogo.webp";
-import coingeko from "../../images/coingeko.webp";
+import twitter from "../../images/icons8-twitter-circled-96.png";
+import telegram from "../../images/icons8-telegram-app-96.png";
+import medium from "../../images/medium.svg";
+import discord from "../../images/discord.svg";
+import opensea from "../../images/icons8-opensea-96.png";
+// import cmc from "../../images/cmc.webp";
+// import dextool from "../../images/dextool.webp";
+// import etherscan from "../../images/etherscan.webp";
+// import uniswap from "../../images/uniswap.webp";
+// import uniswaplogo from "../../images/uniswap-logo.webp";
+// import mexc from "../../images/mexc.webp";
+// import gate from "../../images/gate.webp";
+// import huobi from "../../images/huobi.webp";
+// import poloniex from "../../images/poloniex.webp";
+// import okx from "../../images/okx.webp";
+// import ibank from "../../images/ibank.webp";
+// import bingx from "../../images/bingx.webp";
+// import trustwallet from "../../images/trustwallet.webp";
+// import digifinex from "../../images/digifinex.webp";
+// import btcex from "../../images/btsex.webp";
+// import dextoologo from "../../images/dextoologo.webp";
+// import coinmarket from "../../images/cinemarketlogo.webp";
+// import coingeko from "../../images/coingeko.webp";
 
 const Banner = () => {
   return (
@@ -41,19 +44,19 @@ const Banner = () => {
                 {" "}
                 <img src={telegram} alt="" />
               </div>
+              <div className="w-[4.2rem]">
+                {" "}
+                <img src={discord} alt="" />
+              </div>
+              <div className="w-[4.2rem]">
+                {" "}
+                <img src={opensea} alt="" />
+              </div>
+              <div className="w-[4.2rem]">
+                {" "}
+                <img src={medium} alt="" />
+              </div>
               {/* <div className="w-[4.2rem]">
-                {" "}
-                <img src={dextool} alt="" />
-              </div>
-              <div className="w-[4.2rem]">
-                {" "}
-                <img src={uniswap} alt="" />
-              </div>
-              <div className="w-[4.2rem]">
-                {" "}
-                <img src={cmc} alt="" />
-              </div>
-              <div className="w-[4.2rem]">
                 {" "}
                 <img src={etherscan} alt="" />
               </div> */}
