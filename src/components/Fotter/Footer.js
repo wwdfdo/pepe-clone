@@ -8,7 +8,7 @@ const Footer = () => {
       <audio
         controls
         autoPlay={true}
-        loop
+        loop={true}
         src={sound}
         className="absolute left-0"
       ></audio>
