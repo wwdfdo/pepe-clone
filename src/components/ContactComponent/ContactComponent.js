@@ -7,7 +7,7 @@ import img from "../../images/Pepe_Club_Logo_cropped.png";
 import borderwhite from "../../images/second border.svg";
 import opensea from "../../images/opensea.svg";
 import medium from "../../images/mediumwhite.svg";
-import nftLink from "../../images/nftcalendar-icon-footer.svg";
+import nftLink from "../../images/nftcalendar-svg-white.svg";
 
 const ContactComponent = () => {
   return (
@@ -55,7 +55,7 @@ const ContactComponent = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <img src={nftLink} className=" lg:w-[56px] w-[30px]" alt="" />
+            <img src={nftLink} className=" lg:w-[56px] w-[30px] pt-2" alt="" />
           </a>
         </div>
         <p className="flex lg:text-2xl text-base text-center">

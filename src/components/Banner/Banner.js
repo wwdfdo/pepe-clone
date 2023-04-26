@@ -5,7 +5,7 @@ import telegram from "../../images/icons8-telegram-app-96.png";
 import medium from "../../images/medium.svg";
 import discord from "../../images/discord.svg";
 import opensea from "../../images/icons8-opensea-96.png";
-import nftlink from "../../images/nftcalendar-icon.svg";
+import nftlink from "../../images/nft-calendar-transparent.png";
 // import cmc from "../../images/cmc.webp";
 // import dextool from "../../images/dextool.webp";
 // import etherscan from "../../images/etherscan.webp";
