@@ -47,7 +47,7 @@ const Banner = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <div className="lg:w-[4.2rem] w-[3rem]">
+                <div className="lg:w-[4.2rem] w-[2.6rem]">
                   <img src={twitter} alt="" />
                 </div>
               </a>
@@ -56,7 +56,7 @@ const Banner = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <div className="lg:w-[4.2rem] w-[3rem]">
+                <div className="lg:w-[4.2rem] w-[2.6rem]">
                   <img src={telegram} alt="" />
                 </div>
               </a>
@@ -65,7 +65,7 @@ const Banner = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <div className="lg:w-[4.2rem] w-[3rem]">
+                <div className="lg:w-[4.2rem] w-[2.6rem]">
                   <img src={discord} alt="" />
                 </div>
               </a>
@@ -74,7 +74,7 @@ const Banner = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <div className="lg:w-[4.2rem] w-[3rem]">
+                <div className="lg:w-[4.2rem] w-[2.6rem]">
                   <img src={opensea} alt="" />
                 </div>
               </a>
@@ -83,7 +83,7 @@ const Banner = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <div className="lg:w-[4.2rem] w-[3rem]">
+                <div className="lg:w-[4.2rem] w-[2.6rem]">
                   <img src={medium} alt="" />
                 </div>
               </a>
@@ -92,7 +92,7 @@ const Banner = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <div className="lg:w-[4.2rem] w-[3rem]">
+                <div className="lg:w-[4.2rem] w-[2.6rem]">
                   <img src={nftlink} alt="" />
                 </div>
               </a>
