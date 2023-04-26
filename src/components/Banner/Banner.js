@@ -5,6 +5,7 @@ import telegram from "../../images/icons8-telegram-app-96.png";
 import medium from "../../images/medium.svg";
 import discord from "../../images/discord.svg";
 import opensea from "../../images/icons8-opensea-96.png";
+import nftlink from "../../images/nftcalendar-icon.svg";
 // import cmc from "../../images/cmc.webp";
 // import dextool from "../../images/dextool.webp";
 // import etherscan from "../../images/etherscan.webp";
@@ -84,6 +85,15 @@ const Banner = () => {
               >
                 <div className="lg:w-[4.2rem] w-[3rem]">
                   <img src={medium} alt="" />
+                </div>
+              </a>
+              <a
+                href="https://nftcalendar.io/b/arbitrum"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <div className="lg:w-[4.2rem] w-[3rem]">
+                  <img src={nftlink} alt="" />
                 </div>
               </a>
               {/* <div className="w-[4.2rem]">

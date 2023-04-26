@@ -7,6 +7,7 @@ import img from "../../images/Pepe_Club_Logo_cropped.png";
 import borderwhite from "../../images/second border.svg";
 import opensea from "../../images/opensea.svg";
 import medium from "../../images/mediumwhite.svg";
+import nftLink from "../../images/nftcalendar-icon-footer.svg";
 
 const ContactComponent = () => {
   return (
@@ -48,6 +49,13 @@ const ContactComponent = () => {
             rel="noreferrer"
           >
             <img src={medium} className=" lg:w-[56px] w-[30px]" alt="" />
+          </a>
+          <a
+            href="https://nftcalendar.io/b/arbitrum"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={nftLink} className=" lg:w-[56px] w-[30px]" alt="" />
           </a>
         </div>
         <p className="flex lg:text-2xl text-base text-center">
